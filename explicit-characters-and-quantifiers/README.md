@@ -12,7 +12,7 @@ For example, the regex `a+` will match 'a', 'aa', 'aaa', and so on.
 /a+/
 ```
 
-### 2. Question Mark (?) / Optional
+### 2. Question Mark (?)
 The ? character is a quantifier that matches the preceding element 0 or 1 times, making it optional.
 
 For example, the regex a? will match ‘ ’, ‘a’.
@@ -21,7 +21,7 @@ For example, the regex a? will match ‘ ’, ‘a’.
 /a?/
 ```
 
-### 3. Braces ({}) / How many
+### 3. Braces ({})
 The {} characters are quantifiers that match the preceding element a specific number of times.
 
 {n} matches exactly n times.
