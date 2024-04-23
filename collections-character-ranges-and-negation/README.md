@@ -41,7 +41,6 @@ For example, the regex `[^abc]` will match any single character that is **<ins>n
 
 `[^]`: The **caret symbol** at the start of a set **negates** the set, or collection.
 
-<br> 
 
 #### 🔥 A note about the `^` caret symbol
 When used outside of a character set, the `^` matches the start of the input. For example: `^H` will any string that start with 'H', just like in 'How i met your mother'.
