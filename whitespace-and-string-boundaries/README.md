@@ -43,7 +43,7 @@ If needed to match a pattern at the **beginning of a string**, use **(^)** and a
 
 
 #### 🔥 A note about the `^` caret symbol
-When used outside of a character set, the `^` matches the start of the input. For example: `^H` will any string that start with 'H', just like in 'How i met your mother'.
+When the `^` is the first character inside of a character set `[]`, it negates the set. This means it will match any character that is not in the set. For example: in `[^abc]def` only 'd', 'e' and 'f' will be matched.
 
 ```regex
-/^H/
+/[^abc]def/
